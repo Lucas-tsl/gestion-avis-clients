@@ -1,8 +1,8 @@
 <?php
 /*
- * Plugin Name: Gestion des Avis Clients
+ * Plugin Name: Gestion Avis Clients
  * Description: Plugin pour limiter les avis produits et injecter Google Avis Clients avec configuration admin.
- * Version: 1.0
+ * Version: 1.0.0
  * Author: Troteseil Lucas
  * Author URI: https://bento.me/lucas-tsl
  * Requires at least: 5.6

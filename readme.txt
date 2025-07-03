@@ -1,4 +1,4 @@
-Contient le code source du plugin “Gestion des avis clients” publié sur WordPress.org.
+Contient le code source du plugin “Gestion avis clients” publié sur WordPress.org.
 
 📦 Plugin :
 - Nom : Gestion avis clients

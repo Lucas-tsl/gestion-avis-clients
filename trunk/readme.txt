@@ -1,6 +1,5 @@
 === Gestion Avis Clients ===
 Contributors: lucastsl
-Donate link: 
 Tags: woocommerce, avis, gestion, client, ecommerce
 Requires at least: 5.6
 Tested up to: 6.5
@@ -9,11 +8,11 @@ Stable tag: 1.0.0
 License: GPL v2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
-Un plugin WooCommerce pour gérer les avis produits et injecter Google Avis Clients. Il permet une configuration simple via l'administration WordPress.
+Un plugin wooCommerce pour gérer les avis produits et injecter Google Avis Clients. Il permet une configuration simple via l'administration WordPress.
 
 == Description ==
 
-**Gestion Avis WooCommerce** vous permet de :
+**Gestion Avis Clients** vous permet de :
 
 - Limiter les avis produits (nombre ou conditions)
 - Injecter Google Avis Clients avec vos identifiants
