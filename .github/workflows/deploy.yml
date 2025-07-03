@@ -18,7 +18,6 @@ jobs:
         uses: 10up/action-wordpress-plugin-deploy@stable
 
         with:
-          slug: gestion-avis-woocommerce
           generate-zip: true
         env:
           SVN_USERNAME: ${{ secrets.SVN_USERNAME }}
