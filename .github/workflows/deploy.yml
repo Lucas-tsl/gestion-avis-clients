@@ -20,5 +20,5 @@ jobs:
           slug: gestion-avis-woocommerce
           generate-zip: true
         env:
-          SVN_USERNAME: ${{ secrets.lucastsl }}
-          SVN_PASSWORD: ${{ secrets.eT-9#Asn3p$P@-Z }}
+          SVN_USERNAME: ${{ secrets.SVN_USERNAME }}
+          SVN_PASSWORD: ${{ secrets.SVN_PASSWORD }}
