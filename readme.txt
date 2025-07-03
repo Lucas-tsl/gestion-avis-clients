@@ -1,7 +1,7 @@
-tient le code source du plugin “Gestion Avis WooCommerce” publié sur WordPress.org.
+Contient le code source du plugin “Gestion des avis clients” publié sur WordPress.org.
 
 📦 Plugin :
-- Nom : Gestion Avis WooCommerce
+- Nom : Gestion avis clients
 - Description : Gestion des avis WooCommerce + Intégration Google Avis Clients
 - Version : 1.0.0
 - Auteur : Troteseil Lucas (https://profiles.wordpress.org/lucastsl)

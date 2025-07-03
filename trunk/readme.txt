@@ -1,4 +1,4 @@
-=== Gestion Avis WooCommerce ===
+=== Gestion Avis Clients ===
 Contributors: lucastsl
 Donate link: 
 Tags: woocommerce, avis, gestion, client, ecommerce
