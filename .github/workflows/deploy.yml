@@ -15,7 +15,8 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Déploiement vers WordPress.org
-        uses: 10up/action-wordpress-plugin-deploy@v2
+        uses: 10up/action-wordpress-plugin-deploy@stable
+
         with:
           slug: gestion-avis-woocommerce
           generate-zip: true
