@@ -1,0 +1,24 @@
+name: Déploiement WordPress.org
+
+on:
+  push:
+    tags:
+      - '*'
+
+jobs:
+  deploy:
+    name: 🚀 Déploiement SVN
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout du dépôt
+        uses: actions/checkout@v4
+
+      - name: Déploiement vers WordPress.org
+        uses: 10up/action-wordpress-plugin-deploy@v2
+        with:
+          slug: gestion-avis-woocommerce
+          generate-zip: true
+        env:
+          SVN_USERNAME: ${{ secrets.lucastsl }}
+          SVN_PASSWORD: ${{ secrets.eT-9#Asn3p$P@-Z }}
