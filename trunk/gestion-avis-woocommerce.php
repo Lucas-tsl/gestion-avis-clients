@@ -1,5 +1,5 @@
 <?php
-/**
+/*
  * Plugin Name: Gestion Avis WooCommerce
  * Description: Plugin pour limiter les avis produits et injecter Google Avis Clients avec configuration admin.
  * Version: 1.0
@@ -9,7 +9,7 @@
  * License: GPL v2 or later
  * License URI: https://www.gnu.org/licenses/gpl-2.0.html
  * Text Domain: gestion-avis-woocommerce
-**/
+*/
 
 if (!defined('ABSPATH')) exit;
 
