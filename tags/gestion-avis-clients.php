@@ -80,10 +80,13 @@ function __render_google_avis_page() {
     <?php
 }
 
+
 // === ENREGISTREMENT DES OPTIONS ===
 add_action('admin_init', function () {
     // Limiter les avis
-    register_setting('limiter_avis_group', 'limiter_avis_enabled');
+    register_setting('limiter_avis_group', 'limiter_avis_enabled', [
+        'sanitize_callback' => 'sanitize_text_field'
+    ]);
     add_settings_section('limiter_avis_section', '', null, 'limiter-avis');
     add_settings_field('limiter_avis_enabled', 'Activer la limitation à 3 avis', function () {
         $val = get_option('limiter_avis_enabled');
@@ -91,7 +94,9 @@ add_action('admin_init', function () {
     }, 'limiter-avis', 'limiter_avis_section');
 
     // Google Avis
-    register_setting('google_avis_group', 'google_merchant_id');
+    register_setting('google_avis_group', 'google_merchant_id', [
+        'sanitize_callback' => 'sanitize_text_field'
+    ]);
     add_settings_section('google_avis_section', '', null, 'google-avis');
     add_settings_field('google_merchant_id', 'ID Marchand Google', function () {
         $val = get_option('google_merchant_id');
