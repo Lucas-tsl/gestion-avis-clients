@@ -4,6 +4,7 @@
  * Description: Plugin pour limiter les avis produits et injecter Google Avis Clients avec configuration admin.
  * Version: 1.0
  * Author: Troteseil Lucas
+ * Author URI : https://bento.me/lucas-tsl
  * Requires at least: 5.6
  * Requires PHP: 7.4
  * License: GPL v2 or later
