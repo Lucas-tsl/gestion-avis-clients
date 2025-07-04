@@ -1,19 +1,31 @@
-Contient le code source du plugin “Gestion avis clients” publié sur WordPress.org.
+Gestion Avis Clients – Plugin WordPress
+Ce dépôt contient le code source du plugin WordPress "Gestion Avis Clients", publié sur le répertoire officiel WordPress.org.
 
-📦 Plugin :
-- Nom : Gestion avis clients
-- Description : Gestion des avis WooCommerce + Intégration Google Avis Clients
-- Version : 1.0.0
-- Auteur : Troteseil Lucas (https://profiles.wordpress.org/lucastsl)
+📦 Plugin
+Nom : Gestion Avis Clients
 
-📁 Structure :
-- `trunk/` : code actif du plugin
-- `tags/` : versions publiées
-- `assets/` : images pour WordPress.org (bannières, icônes)
-- `readme.txt` dans trunk : pour le rendu sur WordPress.org
+Description : Centralise et améliore la gestion des avis dans WooCommerce, avec intégration des avis Google pour plus de crédibilité.
 
-🎯 Objectif :
-Améliorer la gestion des retours clients et renforcer la crédibilité des boutiques WooCommerce.
+Version : 1.0.0
 
-➡️ Plus d’infos : https://wordpress.org/plugins/ (bientôt disponible)
+Auteur : Troteseil Lucas
 
+📁 Structure du dépôt
+trunk/ : Code principal du plugin (version active)
+
+tags/ : Versions stables publiées
+
+assets/ : Médias utilisés pour l’affichage sur WordPress.org (bannière, icône, etc.)
+
+trunk/readme.txt : Fichier utilisé pour générer la page du plugin sur WordPress.org
+
+🎯 Objectif du plugin
+Le plugin Gestion Avis Clients vise à :
+
+Simplifier la collecte, l'affichage et la gestion des avis clients WooCommerce.
+
+Intégrer les avis Google Clients pour renforcer la confiance et la crédibilité des boutiques en ligne.
+
+🔗 Lien vers le plugin
+👉 Disponible prochainement sur le répertoire officiel :
+https://wordpress.org/plugins/ (à venir)
